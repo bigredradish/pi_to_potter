@@ -127,19 +127,19 @@ def Spell(spell):
     #Invoke IoT (or any other) actions here
     return
     if (spell=="center"):
-	print("trinket_pin trigger")
-    elif (spell=="circle"):
-	print("switch_pin OFF")
-	print("nox_pin OFF")
-	print("incendio_pin ON")
+		print("trinket_pin trigger")
+	elif (spell=="circle"):
+		print("switch_pin OFF")
+		print("nox_pin OFF")
+		print("incendio_pin ON")
     elif (spell=="eight"):
-	print("switch_pin ON")
-	print("nox_pin OFF")
-	print("incendio_pin OFF")
+		print("switch_pin ON")
+		print("nox_pin OFF")
+		print("incendio_pin OFF")
     elif (spell=="left"):
-	print("switch_pin OFF")
-	print("nox_pin ON")
-	print("incendio_pin OFF")
+		print("switch_pin OFF")
+		print("nox_pin ON")
+		print("incendio_pin OFF")
     elif (spell=="square"):
         None
     elif (spell=="swish"):
