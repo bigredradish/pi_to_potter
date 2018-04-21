@@ -186,9 +186,8 @@ def FindWand():
                     mask = np.zeros_like(old_frame)
                     line_mask = np.zeros_like(old_gray)
                     run_request = False
-                last = time.time()
-
-            time.sleep(.3)
+                	last = time.time()
+					time.sleep(.3)
     except cv2.error as e:
         None
     except:
