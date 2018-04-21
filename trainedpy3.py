@@ -132,25 +132,25 @@ def Spell(spell):
 		print("switch_pin OFF")
 		print("nox_pin OFF")
 		print("incendio_pin ON")
-    elif (spell=="eight"):
+	elif (spell=="eight"):
 		print("switch_pin ON")
 		print("nox_pin OFF")
 		print("incendio_pin OFF")
-    elif (spell=="left"):
+	elif (spell=="left"):
 		print("switch_pin OFF")
 		print("nox_pin ON")
 		print("incendio_pin OFF")
-    elif (spell=="square"):
+	elif (spell=="square"):
+		None
+	elif (spell=="swish"):
+		None
+	elif (spell=="tee"):
         None
-    elif (spell=="swish"):
-        None
-    elif (spell=="tee"):
-        None
-    elif (spell=="triangle"):
-        None
-    elif (spell=="zee"):
-        None
-    print("CAST: %s" %spell)
+	elif (spell=="triangle"):
+		None
+	elif (spell=="zee"):
+		None
+	print("CAST: %s" %spell)
 
 
 def GetPoints(image):
