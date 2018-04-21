@@ -145,13 +145,12 @@ def Spell(spell):
 	elif (spell=="swish"):
 		None
 	elif (spell=="tee"):
-        None
+		None
 	elif (spell=="triangle"):
 		None
 	elif (spell=="zee"):
 		None
 	print("CAST: %s" %spell)
-
 
 def GetPoints(image):
     if args.circles is not True:
